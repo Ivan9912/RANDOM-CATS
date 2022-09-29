@@ -1,3 +1,4 @@
+
 body {
     background-color: #D36B00;
 }
@@ -7,6 +8,9 @@ h1 {
     border: 3px solid #F1EFDC;
     background-color: #E6D2AA;
     color: #42032C;
+    /* font-family: 'Caveat', cursive; */
+    font-family: 'Dancing Script', cursive;
+    /* font-family: 'Alkalami', serif; */
 }
 .conteiner {
     display: grid;
@@ -34,10 +38,15 @@ button {
     margin-top: 50px;
     background-color: #F1EFDC;
     color: #42032C;
+    /* font-family: 'Caveat', cursive; */
+    font-family: 'Dancing Script', cursive;
+    /* font-family: 'Alkalami', serif; */
+    font-size: 1.2rem;
 }
 button:hover {
     background-color: transparent;
     border: 1px solid #42032C;
+    border-radius: 20px;
     padding: 15px 25px 15px 25px;
     -webkit-text-stroke: 1px;
     margin-top: 45px;
