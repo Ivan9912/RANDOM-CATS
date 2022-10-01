@@ -23,6 +23,7 @@ img {
     border-radius: 25px;
     margin-top: 20px;
     transition: 500ms;
+    object-fit: contain;
 }
 img:hover {
     transform: translateX(5px);
@@ -58,4 +59,64 @@ button:active {
     box-shadow: -15px -15px 33px 0px rgba(66,3,44,0.88);
     -webkit-box-shadow: -15px -15px 33px 0px rgba(66,3,44,0.88);
     -moz-box-shadow: -15px -15px 33px 0px rgba(66,3,44,0.88);
+}
+@media (max-width: 768px){
+    img {
+        height: auto;
+        width: 753px;
+    }
+}
+@media (max-width: 425px){
+    img {
+        height: auto;
+        width: 410px;
+    }
+    h1 {
+        padding: 10px;
+        font-size: .6rem;
+        border-radius:  15px;
+    }
+    button {
+        font-size: .4rem;
+        padding: 5px 10px 5px 10px;
+    }
+    button:hover {
+        padding: 8px 13px 8px 13px;
+    }
+}
+@media (max-width: 375px){
+    img {
+        height: auto;
+        width: 355px;
+    }
+    h1 {
+        padding: 10px;
+        font-size: .6rem;
+        border-radius:  15px;
+    }
+    button {
+        font-size: .4rem;
+        padding: 5px 10px 5px 10px;
+    }
+    button:hover {
+        padding: 8px 13px 8px 13px;
+    }
+}
+@media (max-width: 320px){ 
+    img {
+        height: auto;
+        width: 305px;
+    }
+    h1 {
+        padding: 10px;
+        font-size: .6rem;
+        border-radius:  15px;
+    }
+    button {
+        font-size: .4rem;
+        padding: 5px 10px 5px 10px;
+    }
+    button:hover {
+        padding: 8px 13px 8px 13px;
+    }
 }
